@@ -1,0 +1,30 @@
+page-home {
+
+  ion-content {
+    background-image: url("../../assets/imgs/home_image.png");
+    background-size: cover;
+  }
+
+  .home_title {
+    color: #ffffff;
+    font-family: 'Anton', sans-serif;
+    font-size: 60px;
+  }
+
+  .home_title_position {
+    position: relative;
+    margin-top: 50%;
+  }
+
+  .home_subtitle {
+    color: #ffffff;
+    font-family: 'Anton', sans-serif;
+    font-size: 15px;
+  }
+
+  .home_start_button {
+    position: relative;
+    margin-top:40%;
+  }
+
+}

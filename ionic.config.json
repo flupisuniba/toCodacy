@@ -1,0 +1,8 @@
+{
+  "name": "CivicSense",
+  "app_id": "46f3ea72",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

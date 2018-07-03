@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Le mie Segnalazioni
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+<ion-list (click)="itemSelected(item)">
+  <button ion-item *ngFor="let item of items">
+    {{ item  }}
+  </button>
+</ion-list>
+
+
+
+
+</ion-content>
